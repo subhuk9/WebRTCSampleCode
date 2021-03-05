@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEBRTC Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+    </head>
+
+    <body>
+        <div id="mainbody">
+            <div class="header">
+                <h1>WEBRTC Implementation</h1>
+                <p>Real Time Communication</p>
+            </div>
+            <div class="navbar">
+                <a href="Home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="signup.html">SignUp</a>
+                <a href="chat.html">Chat</a>
+                <a href="login.html" class="right">Login</a>
+            </div>
+
+            <div class="row">
+                <div class="content">
+                    <h2 style="text-align: center;">Let's Chat</h2>
+                    <div id="ChatDiv" style="visibility: hidden; float: left;">
+                        <label>Chat History:</label><br/>
+                      <ul id="chat"></ul>
+                    </div>
+                   <div style="float: right;">
+                   <form>
+                      <label>Enter Message:</label><br/>
+                      <textarea rows="8" cols="80" id="message"></textarea>
+                      <br/>
+                      <button type="submit">Send</button>                     
+                  </form>
+                  <script src="../js/chat.js"></script>
+                </div>
+                </div>
+            </div>
+            <div class="footer">
+                <h5><a>Terms</a> | <a>WebRTC</a></h5>
+            </div>
+        </div>
+    </body>
+</html>
